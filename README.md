@@ -5,7 +5,7 @@ Home: http://github.com/bioidiap/bob.sp
 
 Package license: Modified BSD License (3-clause)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Bob's signal processing utilities
 
