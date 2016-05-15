@@ -22,6 +22,7 @@ requirements:
   - bob.blitz
   - bob.core
   - cmake
+  - pkg-config
 
   run:
   - python
