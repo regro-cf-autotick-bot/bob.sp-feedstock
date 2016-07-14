@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.sp-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.sp/bob.sp-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.sp/bob.sp-{{ version }}.zip
   md5: 6a608b7a6b49cc38732ae3797ec1d187
 
 build:
