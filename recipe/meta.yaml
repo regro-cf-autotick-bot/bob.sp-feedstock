@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.sp
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.sp-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.sp/bob.sp-{{ version }}.zip
-  md5: 6a608b7a6b49cc38732ae3797ec1d187
+  md5: 7acea46b8501dd94e4b77a41b31fe862
 
 build:
   number: 0
@@ -42,7 +42,7 @@ test:
   - nose
 
 about:
-  home: http://github.com/bioidiap/bob.sp
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob's signal processing utilities
 
