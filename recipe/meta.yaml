@@ -16,30 +16,31 @@ build:
 
 requirements:
   build:
-  - python
-  - setuptools
-  - bob.extension >2.0.4
-  - bob.blitz
-  - bob.core
-  - cmake
-  - pkg-config
+    - python
+    - toolchain
+    - setuptools
+    - bob.extension >2.0.4
+    - bob.blitz
+    - bob.core
+    - cmake
+    - pkg-config
 
   run:
-  - python
-  - bob.extension >2.0.4
-  - bob.blitz
-  - bob.core
+    - python
+    - bob.extension >2.0.4
+    - bob.blitz
+    - bob.core
 
 test:
   imports:
-  - bob
-  - bob.sp
+    - bob
+    - bob.sp
 
   commands:
-  - nosetests -sv bob.sp
+    - nosetests -sv bob.sp
 
   requires:
-  - nose
+    - nose
 
 about:
   home: https://www.idiap.ch/software/bob/
@@ -48,4 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-  - 183amir
+    - 183amir
